@@ -21,11 +21,11 @@ Gem::Specification.new do |s|
   ]
   s.test_files = Dir['test/**/*']
 
-  s.add_dependency 'database_cleaner', '>= 1.4.0'
-  s.add_dependency 'factory_girl_rails', '>= 4.0'
-  s.add_dependency 'rails', '>= 4.2'
+  s.add_dependency 'database_cleaner', '~> 1.4'
+  s.add_dependency 'factory_girl_rails', '~> 4.0'
+  s.add_dependency 'rails', '~> 4.2'
 
-  s.add_development_dependency 'pry'
-  s.add_development_dependency 'rspec-rails', '~> 3.1.0'
-  s.add_development_dependency 'sqlite3'
+  s.add_development_dependency 'pry', '~> 0.10'
+  s.add_development_dependency 'rspec-rails', '~> 3.1'
+  s.add_development_dependency 'sqlite3', '~> 1.3'
 end
