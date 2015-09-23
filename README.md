@@ -2,7 +2,7 @@
 
 The factory_girl_api gem is a Rails Engine that integrates with [factory_girl][factory_girl] to add API routes for manipulating factories that can be used for context setup in frontend tests.
 
-It cooperates with angular-factory-girl-api, which provides an Angular service that will make the proper requests to your server during tests.
+It cooperates with [angular-factory-girl-api][angular-factory-girl-api], which provides an Angular service that will make the proper requests to your server during tests.
 
 ## Installation
 
@@ -58,5 +58,6 @@ This endpoint does nothing on its own. Each usage of this endpoint should be pai
 
 Uses [DatabaseCleaner][database_cleaner] to delete all records created since the previous call to `POST /database`. This can be used to clean up DB context after creating records with factories.
 
+[angular-factory-girl-api]: https://github.com/lexi-lambda/angular-factory-girl-api
 [database_cleaner]: https://github.com/DatabaseCleaner/database_cleaner
 [factory_girl]: https://github.com/thoughtbot/factory_girl
